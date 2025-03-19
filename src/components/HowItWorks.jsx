@@ -40,7 +40,7 @@ const HowItWorks = () => {
             <br /> A monster win for gaming.
           </h2>
 
-          <p className="hiw-subtitle">
+          <p className="hiw-subtitle text-white">
             It's here. The biggest redesign in the history of Apple GPUs.
           </p>
         </div>
@@ -61,7 +61,7 @@ const HowItWorks = () => {
                 </video>
               </div>
           </div>
-          <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
+          <p className="text-white font-semibold text-center mt-3">Honkai: Star Rail</p>
           </div>
 
           <div className="hiw-text-container">
