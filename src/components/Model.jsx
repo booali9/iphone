@@ -53,7 +53,7 @@ const Model = () => {
   }, []);
 
   return (
-    <section className="common-padding">
+    <section className="common-padding  bg-gradient-to-b from-black via-purple-400 to-black">
       <div className="screen-max-width">
         <h1 id="heading" className="section-heading">
           Take a closer look.

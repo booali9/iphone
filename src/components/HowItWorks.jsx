@@ -28,9 +28,9 @@ const HowItWorks = () => {
   }, []);
 
   return (
-    <section className="common-padding">
+    <section className="common-padding  bg-gradient-to-b from-black via-purple-400 to-black ">
       <div className="screen-max-width">
-        <div id="chip" className="flex-center w-full my-20">
+        <div id="chip" className="flex-center w-full my-20 ">
           <img src={chipImg} alt="chip" width={180} height={180} />
         </div>
 
@@ -53,6 +53,7 @@ const HowItWorks = () => {
                 alt="frame"
                 className="bg-transparent relative z-10"
               />
+              
             </div>
             <div className="hiw-video">
                 <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
